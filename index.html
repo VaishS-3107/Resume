@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vaishnavi Sridhar | Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa, #e4ecf5);
+      color: #2c2c2c;
+      padding: 40px 15px;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 15px 40px rgb(112, 31, 95);
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .name {
+      font-size: 34px;
+      font-weight: 600;
+      color: rgb(112, 31, 95);
+    }
+
+    .role {
+      font-size: 16px;
+      font-weight: 500;
+      color: #555;
+      margin-top: 6px;
+    }
+
+    .contact p {
+      font-size: 14px;
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #1f3c88;
+      font-weight: 500;
+    }
+
+    /* Section */
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: rgb(112, 31, 95);
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    .section h2::after {
+      content: '';
+      width: 50px;
+      height: 3px;
+      background: rgb(112, 31, 95);
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      border-radius: 2px;
+    }
+
+    .section p {
+      font-size: 14.5px;
+      line-height: 1.7;
+      color: #444;
+      margin-top: 10px;
+    }
+
+    /* Skills */
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 15px;
+    }
+
+    .skill-card {
+      background: #f5f7fb;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    /* Lists */
+    ul {
+      margin-top: 12px;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      font-size: 14.5px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    /* Sub headings */
+    .sub-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 15px;
+      color: #333;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: #777;
+      margin-top: 4px;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .name {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+  <!-- Header -->
+  <div class="header">
+    <div>
+      <div class="name">Vaishnavi Sridhar</div>
+      <div class="role">Aspiring Full Stack Developer | Software Developer</div>
+      <p class="meta">Final Year BCA Student</p>
+    </div>
+
+    <div class="contact">
+      <p>📞 +91 96541 68469</p>
+      <p>✉️ Vaishnavi.sri3107@gmail.com</p>
+      <p>🔗 <a href="https://www.linkedin.com/in/vaishnavi-sridhar-79b920286" target="_blank">LinkedIn</a></p>
+      <p>💻 <a href="https://github.com/VaishS-3107" target="_blank">GitHub</a></p>
+    </div>
+  </div>
+
+  <!-- Objective -->
+  <div class="section">
+    <h2>Career Objective</h2>
+    <p>
+      Final-year BCA student passionate about full stack development, with hands-on
+      experience in the MERN stack. Proven leadership as Class Representative for
+      1.5 years and a strong ability to lead projects, solve problems, and apply
+      academic knowledge to real-world software challenges.
+    </p>
+  </div>
+
+  <!-- Skills -->
+  <div class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-card"><strong>Programming<br></strong> Python, Java, C</div>
+      <div class="skill-card"><strong>Databases<br></strong> MySQL, MongoDB</div>
+      <div class="skill-card"><strong>Web<br></strong> HTML, CSS, JavaScript, Node</div>
+      <div class="skill-card"><strong>Tools<br></strong>Illustrator</div>
+      <div class="skill-card"><strong>Soft Skills<br></strong> Leadership, Research, Presentations</div>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <h2>Education</h2>
+    <p><strong>BCA – Jain University</strong> (2023–2026) | CGPA: 9.276</p>
+    <p><strong>12th – CEBA</strong>, Geetanjali Olympiad School (2022) | 79.6%</p>
+    <p><strong>10th</strong>, Vagdevi Vilas School (2020) | 87.8%</p>
+  </div>
+
+  <!-- Experience -->
+  <div class="section">
+    <h2>Experience</h2>
+    <div class="sub-title">Python Development Intern</div>
+    <div class="meta">Cognifyz Technologies | Jan 2025 – Feb 2025</div>
+    <ul>
+      <li>Worked on backend Python modules and debugging.</li>
+      <li>Assisted in automation scripts and data workflows.</li>
+      <li>Gained exposure to real-world development practices.</li>
+    </ul>
+  </div>
+
+  <!-- Projects -->
+  <div class="section">
+    <h2>Projects</h2>
+
+    <div class="sub-title">GUI-Based Billing System</div>
+    <ul>
+      <li>Automated GST calculation and dynamic bill generation.</li>
+      <li>Designed Tkinter-based GUI for smooth user interaction.</li>
+      <li>Stored billing records using structured note files.</li>
+    </ul>
+
+    <div class="sub-title">Malicious URL Detection (Research)</div>
+    <ul>
+      <li>Used lexical, content, and network-based features.</li>
+      <li>Applied ML algorithms for URL classification.</li>
+      <li>Evaluated models using precision and recall.</li>
+    </ul>
+
+    <div class="sub-title">Mental Health Research (PCL)</div>
+    <ul>
+      <li>Analyzed mental health factors among students aged 18–24.</li>
+      <li>Collected real-life survey data and Kaggle datasets.</li>
+      <li>Applied ML models to evaluate accuracy.</li>
+    </ul>
+  </div>
+
+  <!-- Hobbies -->
+  <div class="section">
+    <h2>Hobbies & Activities</h2>
+    <ul>
+      <li>Reading novels and exploring new places</li>
+      <li>Digital art & creative drawing</li>
+      <li>Badminton & Volleyball</li>
+      <li>Participated in “Pitch Perfect” business pitch</li>
+      <li>#50DaysofLeetCodeChallenge on LinkedIn</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    © 2026 Vaishnavi Sridhar
+  </div>
+
+</div>
+
+</body>
+</html>
